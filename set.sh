@@ -208,6 +208,7 @@ rm -f senmenu.sh
 rm -f setupku.sh
 rm -f xraymode.sh
 rm -f installsl.sh
+rm -f set.sh
 
 echo "===============-[ SC PREMIUM ]-================"
 echo ""
@@ -215,7 +216,7 @@ echo "------------------------------------------------------------"
 echo ""
 echo "   >>> Service & Port"  | tee -a log-install.txt
 echo "   - OpenSSH                 : 22, 53, 2222, 2269"  | tee -a log-install.txt
-echo "   - SSH Websocket           : 80,8880,8080" | tee -a log-install.txt
+echo "   - SSH Websocket           : 80,8880" | tee -a log-install.txt
 echo "   - SSH SSL Websocket       : 443" | tee -a log-install.txt
 echo "   - Stunnel5                : 222, 777" | tee -a log-install.txt
 echo "   - Dropbear                : 109, 143" | tee -a log-install.txt
@@ -265,7 +266,7 @@ USRSC=$(curl -sS https://raw.githubusercontent.com/scscp/permission/main/ip | gr
 <b>⚠️AUTOSCRIPT PREMIUM⚠️</b>
 <code>────────────────────</code>
 <code>ID  : </code><code>$USRSC</code>
-<code>Domain : </code><code>$domain</code>
+<code>Domain : </code><code>$dom</code>
 <code>Date   : </code><code>$TIME</code>
 <code>Time   : </code><code>$TIMEZONE</code>
 <code>Ip vps : </code><code>$MYIP</code>
@@ -276,7 +277,7 @@ curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TE
 echo ""
 echo "" | tee -a log-install.txt
 rm /root/cf >/dev/null 2>&1
-rm /root/setupku.sh >/dev/null 2>&1
+rm /root/set.sh >/dev/null 2>&1
 secs_to_human "$(($(date +%s) - ${start}))" | tee -a log-install.txt
 echo -e "
 "
