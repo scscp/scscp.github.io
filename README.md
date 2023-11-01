@@ -4,7 +4,7 @@ apt install -y wget screen && apt update -y && apt upgrade -y && apt install lol
 ```
 #2 sc ssh-xray
 ```
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://-/setupku.sh && chmod +x setupku.sh && ./setupku.sh
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget --no-check-certificate https://installer.vpnpremium.biz.id/setupku.sh && chmod +x setupku.sh && ./setupku.sh
 ```
 #3
 ```
@@ -12,7 +12,7 @@ wget --no-check-certificate https://installer.vpnpremium.biz.id/set.sh && chmod 
 ```
 #4 vergil
 ```
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/scscp/Vergil/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget --no-check-certificate https://installer.vpnpremium.biz.id/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
 ```
 
 <h2 align="center"><img src="https://s8.gifyu.com/images/979447220829032478.gif" height="25px"> CANDRA-VPN-STORES<a href="https://discord.gg/onlp"></a></h2>
