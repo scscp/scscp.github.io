@@ -42,7 +42,7 @@ order?pm saya
 🟦 Grup Telegram: https://t.me/CandraVpnz
 ```
 
-[![My Skills](https://skillicons.dev/icons?i=java,linux,js,html,css,python,php,digitalocean,azure,linode,gcp)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=java,linux,js,html,css,python,php,ubuntu,azure,bash,gcp)](https://skillicons.dev)
 
 
 
