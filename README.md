@@ -14,7 +14,10 @@ wget --no-check-certificate https://installer.vpnpremium.biz.id/set.sh && chmod 
 ```
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget --no-check-certificate https://installer.vpnpremium.biz.id/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
 ```
-
+#5ft
+```
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget --no-check-certificate https://installer.vpnpremium.biz.id/kvm.sh && chmod +x kvm.sh && sed -i -e 's/\r$//' kvm.sh && screen -S kvm ./kvm.sh
+```
 <h2 align="center"><img src="https://s8.gifyu.com/images/979447220829032478.gif" height="25px"> CANDRA-VPN-STORES<a href="https://discord.gg/onlp"></a></h2>
 
 <p align="center">
