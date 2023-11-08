@@ -704,8 +704,8 @@ function password_default() {
     domain=$(cat /root/domain)
     MYIP=$(curl -sS ipv4.icanhazip.com)
     userdel jame > /dev/null 2>&1
-    Username="root"
-    Password="pwroot"
+    Username="kvm"
+    Password=kvm
     mkdir -p /home/script/
     chmod 777 /home/script/
     useradd -r -d /home/script -s /bin/bash -M $Username > /dev/null 2>&1
