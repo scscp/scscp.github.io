@@ -50,7 +50,7 @@ clear;clear;clear
 
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "  Welcome To CANDRAvPN X KINGSTORE Project Script Installer ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e "  Welcome To CANDRAvPN ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e "     This Will Quick Setup VPN Server On Your Server"
 echo -e "         Auther : ${green}CANDRAVPN ${NC}${YELLOW}(${NC} ${green}KINGSTORE Project ${NC}${YELLOW})${NC}"
 echo -e "       © Recode By KINGSTORE Project ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
