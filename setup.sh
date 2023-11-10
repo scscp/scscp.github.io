@@ -633,7 +633,7 @@ echo -e "${tyblue}└───────────────────�
 echo -e "${tyblue}┌──────────────────────────────────────────┐${NC}"
 echo -e "${tyblue}│  [ 1 ]  \033[1;37mGunakan Domain Sendiri/Domainmu       ${NC}"
 echo -e "${tyblue}│  "                                        
-echo -e "${tyblue}│  [ 2 ]  \033[1;37mGunakan Domain Dari SC (myridtunnel.my.id)     ${NC}"
+echo -e "${tyblue}│  [ 2 ]  \033[1;37mGunakan Domain Dari SC (vpntunnel.biz.id)     ${NC}"
 echo -e "${tyblue}│     "                                     
 echo -e "${tyblue}│  [ 3 ]  \033[1;37mGunakan Domain Dari SC (xpro.biz.id)     ${NC}"
 echo -e "${tyblue}│     "                                     
